@@ -19,7 +19,7 @@ class Solution {
                {
                 if(nums[j]!=val)
                 {
-                    temp=nums[i];
+                temp=nums[i];
                 nums[i]=nums[j];
                 nums[j]=temp;
                 }
