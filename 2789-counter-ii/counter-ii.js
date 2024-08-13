@@ -5,15 +5,15 @@
 var createCounter = function(init) {
      let l= init;
     return{
-        increment: function(expected) {
+        increment: function() {
             l=l+1;
             return l;
         },
-        decrement: function(expected) {
+        decrement: function() {
             l= l-1;
             return l;
         },
-        reset: function(expected) {
+        reset: function() {
             l= init
             return l;
         }
