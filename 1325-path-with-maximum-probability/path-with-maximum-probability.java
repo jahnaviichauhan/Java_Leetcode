@@ -56,33 +56,5 @@ public class Solution {
             this.node = node;
             this.prob = prob;
         }
-    }
+    }}
 
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-
-        // Example 1
-        int n1 = 3;
-        int[][] edges1 = {{0, 1}, {1, 2}, {0, 2}};
-        double[] succProb1 = {0.5, 0.5, 0.2};
-        int start1 = 0;
-        int end1 = 2;
-        System.out.println(solution.maxProbability(n1, edges1, succProb1, start1, end1)); // Output: 0.25000
-
-        // Example 2
-        int n2 = 3;
-        int[][] edges2 = {{0, 1}, {1, 2}, {0, 2}};
-        double[] succProb2 = {0.5, 0.5, 0.3};
-        int start2 = 0;
-        int end2 = 2;
-        System.out.println(solution.maxProbability(n2, edges2, succProb2, start2, end2)); // Output: 0.30000
-
-        // Example 3
-        int n3 = 3;
-        int[][] edges3 = {{0, 1}};
-        double[] succProb3 = {0.5};
-        int start3 = 0;
-        int end3 = 2;
-        System.out.println(solution.maxProbability(n3, edges3, succProb3, start3, end3)); // Output: 0.00000
-    }
-}
